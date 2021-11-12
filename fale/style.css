@@ -1,0 +1,26 @@
+.loading{
+        display: none;
+        background: #FFFFFF;
+        position: absolute;
+        width: 400;
+        height: 200;
+        top: 50%;
+        left: 50%;
+        margin-left: -200;
+        margin-top: -100;
+        border-style: solid;
+        border-color: black;
+        border-width: 1;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: arial;
+        font-weight: bold;
+        color: silver;
+        z-index: 3;
+}
+.imgloading{
+        padding-top: 15;
+        font-family: arial;
+        height: 130;
+}
+

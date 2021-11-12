@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Bem Vindo ao iSysmp.com</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<style type="text/css">
+
+/* Import the styles.. This will prevent buggy CSS handling wierdness in NS4 when they view the page */
+	@import "style2.css"; 
+</style>
+<script type="text/javascript" language="JavaScript">
+
+// CSS and DHTML powered ImageGallery  
+// Created in April 2004 by Dasme - dasme *at* dasme.org
+//  - http://dasme.org/imagegal/
+//
+// Script based on ideas from Jeremy Keith and AListApart.com
+// http://www.alistapart.com/articles/imagegallery/
+//
+// If you use this code in your page, please leave these comments in.
+// A quick email with the location of your gallery would be cool too. 
+// I always like to see what others have done with my scripts.
+//
+
+function DOMCall(name) {
+	if (document.layers) 
+		return document.layers[name];
+	else if (document.all)
+		return document.all[name];
+	else if (document.getElementById)
+		return document.getElementById(name);
+}
+function showPic (whichpic) {
+	DOMCall('placeholder').src = whichpic.href;
+	if (whichpic.title) {
+		DOMCall('imageCaption').innerHTML = whichpic.title;
+		DOMCall('imageCaption').className = "";
+	} else {
+		DOMCall('imageCaption').className = "hidden";
+	}
+ 	return false;
+}
+
+function clickedImage (whichpic) {
+	imageUrl = whichpic.src;  // grab the url of the medium image.
+	imageUrl = imageUrl.replace(/images/gi, "fotos/"); // add in the "large" dir so we can display the big picture
+	imageWindow = window.open("popup.php?z="+imageUrl,'imageWin','width=540,height=380');  // popup the image in a new window set width and height to your max values
+}
+
+function switchPage(pageId) {
+<JS>
+DOMCall(pageId).className = "asdasd"; // set the current page to junk so it becomes visible
+}
+</script>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<div id="browsercheck"><hr></div>
+
+	<div id="container">
+
+		<div id="images"><PLACEHOLDER>
+		</div>
+
+		<div id="imageCaption" class="<RANDCLASS>"><RANDCAPTION></div>
+
+		<CONTENT>
+
+		<br clear="all" />
+		<div style="text-align: center;">
+			<MENU>
+		</div>
+	</div>
+
+</body>
+</html>

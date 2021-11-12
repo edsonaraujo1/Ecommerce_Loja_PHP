@@ -1,0 +1,67 @@
+td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+td.titulo {
+	height : 20px;
+	color : White;
+	text-align : center;
+}
+
+td.titulo2 {
+	background-color : #f3faf3;
+	height : 10px;
+	color : White;
+	text-align : center;
+	font-size : 10px;
+}
+
+
+td.titulo3 {
+        background-color : #ffffff;
+        height : 20px;
+        color : #990000;
+}
+td.campos {
+	background-color : #FFFFFF;
+	color : #000000;
+	font-size: 12px;
+}
+
+td.button {
+	text-align : center;
+	color: #FFFFFF;
+	cursor: pointer;
+	cursor: hand;
+}
+
+input.text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #990000;
+	border: thin #CCCCCC none;
+}
+
+a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FF0000;
+}td.cor {
+	background-color: #CCCCCC;
+
+
+}
+td.semcor {
+	background-color: #E5E5E5;
+
+
+}
+.novo {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; color: #000000; text-decoration: none; background-color: efefef; border-style: inset}
+.fundo {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; line-height: normal; font-weight: bold; color: #990000; background-color: #00CCCC; text-transform: capitalize; text-decoration: none}
+.fonteaz {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #0000CC; text-decoration: none}

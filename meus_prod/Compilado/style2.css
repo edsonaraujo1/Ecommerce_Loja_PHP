@@ -1,0 +1,65 @@
+h1, h2 {
+	text-align: left;
+	color: #333;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	font-size: 90%;
+	margin-bottom: 30px;
+	color: #06c;
+	border-left: 2px solid #06c;
+	padding-left: 5px;
+}
+
+#page{
+	width: 410px;
+	margin: 20px auto;
+	border: 1px solid #000;
+	background: #ddd;
+}
+
+#container {
+	width: 295px;
+	margin: 0px;
+	background: white;
+	text-align: center;
+	float: left;
+}
+#container span {
+	font-size: 9px;
+}
+
+#images {
+	width: 255px;
+	margin: 0px auto;
+	padding: 10px;
+	text-align: center;
+	border: 1px solid #666;
+}
+
+#imageCaption {
+	width: 330px;
+	margin: 5px auto 0px auto;
+	padding: 10px;
+	text-align: center;
+	border: 1px dashed #666;
+}
+
+.thumb {
+	float: left;
+	width: 54px;
+	padding: 3px;
+	margin: 5px;
+	border: 1px dotted #aaa;
+	text-align: center;
+}
+
+.hidden {
+	display: none;
+}
+
+#browsercheck {
+	display: none;
+}

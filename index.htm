@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<html>
+<head>
+<title>.:Compraai.:</title>
+<link rel="shortcut icon" href="favicon.ico"/>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<meta content="Compraai" name='description'/>
+<meta content="compraai" name='keywords'/>
+<meta content='PT-BR' name='language'/>
+</head>
+
+<script language=JavaScript1.2>
+<!--
+
+var message="Bem Vindo ao Compraai"  
+var message=message+"          " 
+i="0"			      
+var temptitle=""                
+var speed="250"               
+
+function titler(){
+if (!document.all&&!document.getElementById)
+return
+document.title=temptitle+message.charAt(i)  
+temptitle=temptitle+message.charAt(i)       
+i++					    
+if(i==message.length)			    
+{
+i="0"					    
+temptitle=""				    
+}
+setTimeout("titler()",speed) 		   
+}
+
+var hellotext=""
+var text=""
+var started=false
+var step=0
+var times=1
+
+function welcometext(){
+	times--
+	if(times==0){
+        if(started==false){
+			started = true;
+			window.status = hellotext;
+			setTimeout("anim()",1);
+		}
+		text = hellotext;
+	}
+}
+
+function showstatustext(txt){
+	text = txt;
+	setTimeout("welcometext()",4000)
+	times++
+}
+
+function anim(){
+	step++;
+	if (step==9) {step=1}
+	if (step==1) {window.status=".¸.·´¯`·.¸.·´¯`·.¸.·´¯`· <<< Seja Bem Vindo >>> ¸.·´¯`·.¸.·´¯`·.¸.·´¯`·."}
+	if (step==2) {window.status="·.¸.·´¯`·.¸.·´¯`·.¸.·´¯` <<< Seja Bem Vindo >>> .·´¯`·.¸.·´¯`·.¸.·´¯`·.¸"}
+	if (step==3) {window.status="`·.¸.·´¯`·.¸.·´¯`·.¸.·´¯ <<< Seja Bem Vindo >>> ·´¯`·.¸.·´¯`·.¸.·´¯`·.¸."}
+	if (step==4) {window.status="¯`·.¸.·´¯`·.¸.·´¯`·.¸.·´ <<< Seja Bem Vindo >>> ´¯`·.¸.·´¯`·.¸.·´¯`·.¸.·"}
+	if (step==5) {window.status="´¯`·.¸.·´¯`·.¸.·´¯`·.¸.· <<< Seja Bem Vindo >>> ¯`·.¸.·´¯`·.¸.·´¯`·.¸.·´"}
+	if (step==6) {window.status="·´¯`·.¸.·´¯`·.¸.·´¯`·.¸. <<< Seja Bem Vindo >>> `·.¸.·´¯`·.¸.·´¯`·.¸.·´¯"}
+	if (step==7) {window.status=".·´¯`·.¸.·´¯`·.¸.·´¯`·.¸ <<< Seja Bem Vindo >>> ·.¸.·´¯`·.¸.·´¯`·.¸.·´¯`"}
+	if (step==8) {window.status="¸.·´¯`·.¸.·´¯`·.¸.·´¯`·. <<< Seja Bem Vindo >>> .¸.·´¯`·.¸.·´¯`·.¸.·´¯`·"}
+	setTimeout("anim()",400);
+}
+
+//welcometext();
+//window.onload=titler
+// -->
+</script>
+
+<frameset  frameborder="NO">
+<frame noresize src="inicio.php" frameborder="NO" height="100%" name="main_Frame">
+<frame noresize src="" frameborder="NO">
+</frameset>
+<noframes> 
+<body bgcolor="#FFFFFF" text="#000000">
+<p align="center">Seu navegador não suporta frames.</p>
+</body>
+</noframes> 
+</html>

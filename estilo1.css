@@ -1,0 +1,124 @@
+.style1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+}
+body {
+	background-image:  url(graphics/bg.gif);
+	
+}
+
+A.linkbranco {
+	FONT-SIZE: 10px; COLOR: #ffffff;
+}
+A.linkbranco:visited {
+	COLOR: #f0f0f0;
+}
+A.linkbranco:hover {
+	COLOR: #ffffff;
+}
+A.linkbranco:active {
+	COLOR: #ffffff;
+}
+
+.style3 {font-size: 12px}
+.style4 {font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 12px; }
+.style5 {
+	color: #FF9933;
+	font-weight: bold;
+}
+.style7 {font-size: 12px; font-weight: bold; }
+.style8 {color: #FF9933}
+.style9 {color: #000000}
+.style10 {font-size: 12px; color: #000000; }
+.style12 {font-size: 12px; color: #FF9933; }
+.style15 {
+	font-family: Arial;
+	font-size: 10px;
+	font-weight: bold;
+}
+.style17 {
+	color: #FFFFFF;
+	font-size: 9px;
+}
+.style18 {font-size: 9px}
+.style19 {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FF0000;
+}	
+
+.style20 {font-size: 13px}
+
+#nav{
+background:url(img/greypx.gif) bottom left repeat-x;
+float:left;
+width:100%;
+
+}
+
+#nav ul{
+list-style:none;
+margin:5px;
+padding:0;
+}
+
+#nav a{
+background:url(graphics/tabs2.gif) no-repeat 100% 0;
+color:#808080;
+display:block;
+font-size:1.2em;
+letter-spacing:-1px;
+padding:7px 13px 4px 4px;
+text-decoration:none;
+font:10px Verdana;
+}
+
+#nav a:hover{
+color:#505050;
+}
+
+#nav li{
+background:url(graphics/tabs2.gif) no-repeat 0 0;
+float:left;
+margin:0 1px 0 0;
+padding:0 0 0 9px;
+}
+
+#nav #current{
+background:url(img/tabs.gif) no-repeat 0 -41px;
+}
+
+#nav #current a{
+background:url(graphics/tabs2.gif) no-repeat 100% -41px;
+color:#303030;
+padding:7px 13px 3px 4px;
+}
+
+ul#menu {
+width:135px;
+border:1px solid #003399;
+background:#FADE8B;
+margin:0;
+padding:0;
+list-style-type:none;
+}
+ul#menu li {
+border-bottom:1px solid #A4A0F5;
+}
+ul#menu li a:link, ul#menu li a:visited {
+display:block;
+height:1%;
+text-decoration:none;
+font-family: Geneva, Arial, Helvetica, sans-serif;
+font-size:14px;
+color:#5E0F50;
+border-left:10px solid #FFB368;
+padding-left:5px;
+}
+ul#menu li a:hover {
+background-color: #FFE4B5;
+color:#DAA520;
+border-left:10px solid #FFD39B;
+}
