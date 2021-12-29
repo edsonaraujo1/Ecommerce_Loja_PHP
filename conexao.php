@@ -4,7 +4,7 @@
  Desenvolvido por...: Edson de Araujo
  Finalidade.........: Conectar ao Banco de Dados
  Criado em Data.....: 07/12/2007
- Ultima Atualização : 07/12/2007 
+ Ultima Atualizaï¿½ï¿½o : 07/12/2007 
 
  DEUS SEJA LOUVADO
  ------------------------------------------------
@@ -21,7 +21,7 @@
 // Mudar aqui
 $faz_agora = 5;
 
-$limite="10";//limite de mensagens por página
+$limite="10";//limite de mensagens por pï¿½gina
 
 if ($faz_agora == 1){
 
@@ -75,39 +75,6 @@ if ($faz_agora == 5){
 	$user  = "root";              // Conta do Usuario
 	$pass  = "12345";             // Senha do Usuario
 	$db    = "site";        // Banco de Dados
-	
-}
-
-if ($faz_agora == 6){
-	
-	// Banco Internet
-	
-	$host  = "fdb2.leadhoster.com";         // Host do servidor
-	$user  = "318737_sysmp";              // Conta do Usuario
-	$pass  = "xt909z";             // Senha do Usuario
-	$db    = "318737_sysmp";        // Banco de Dados
-	
-}
-
-if ($faz_agora == 7){
-	
-	// Banco Bysite .com
-	
-	$host  = "localhost";         // Host do servidor
-	$user  = "isysmpbr_isysmp";              // Conta do Usuario
-	$pass  = "xt909z";             // Senha do Usuario
-	$db    = "isysmpbr_site";        // Banco de Dados
-	
-}
-
-if ($faz_agora == 8){
-	
-	// Banco Bysite .com.br
-	
-	$host  = "localhost";         // Host do servidor
-	$user  = "isysmpco_site02";              // Conta do Usuario
-	$pass  = "xt909z";             // Senha do Usuario
-	$db    = "isysmpco_site";        // Banco de Dados
 	
 }
 
