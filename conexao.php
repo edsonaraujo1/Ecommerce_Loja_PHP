@@ -4,7 +4,11 @@
  Desenvolvido por...: Edson de Araujo
  Finalidade.........: Conectar ao Banco de Dados
  Criado em Data.....: 07/12/2007
+<<<<<<< HEAD
  Ultima Atualiza��o : 07/12/2007 
+=======
+ Ultima Atualização : 07/12/2007 
+>>>>>>> d5e8136038a2e8b574efb99c20e7d0505b767eb8
 
  DEUS SEJA LOUVADO
  ------------------------------------------------
@@ -12,25 +16,26 @@
 
 // Legendas
 // 1 localhost Administrador
-// 2 localhost Sindificios
-// 3 Server 192.168.1.100
-// 4 Intranet Locasite
-// 5 maquina isolada
+// 2 maquina isolada
 
 
 // Mudar aqui
-$faz_agora = 5;
+$faz_agora = 1;
 
+<<<<<<< HEAD
 $limite="10";//limite de mensagens por p�gina
+=======
+$limite="10";//limite de mensagens por página
+>>>>>>> d5e8136038a2e8b574efb99c20e7d0505b767eb8
 
 if ($faz_agora == 1){
 
     // Administrador
 
-	$host     = "localhost";      // Host do servidor
-	$user     = "admin_1";        // Conta do Usuario
-	$pass     = "!_@ADM?12";      // Senha do Usuario
-	$db       = "bancodados";     // Banco de Dados
+	$host     = "localhost";    // Host do servidor
+	$user     = "admin";        // Conta do Usuario
+	$pass     = "admin";        // Senha do Usuario
+	$db       = "compraai";     // Banco de Dados
 	
 }
 
@@ -39,12 +44,13 @@ if ($faz_agora == 2){
     // Banco local
 
 	$host     = "localhost";       // Host do servidor
-	$user     = "sindificios";     // Conta do Usuario
-	$pass     = "@12xlsin_!?";     // Senha do Usuario
+	$user     = "root";            // Conta do Usuario
+	$pass     = "1234";            // Senha do Usuario
 	$db       = "bancodados";      // Banco de Dados
 	
 }
 
+<<<<<<< HEAD
 if ($faz_agora == 3){
 	
 	// Banco Rede server 2003
@@ -78,4 +84,6 @@ if ($faz_agora == 5){
 	
 }
 
+=======
+>>>>>>> d5e8136038a2e8b574efb99c20e7d0505b767eb8
 ?>
